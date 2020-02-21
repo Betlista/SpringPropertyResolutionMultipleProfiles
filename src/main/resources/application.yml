@@ -1,0 +1,14 @@
+name: none
+label: labelValue
+---
+spring:
+  profiles: dev
+name: devName
+---
+spring:
+  profiles: prod
+name: prodName
+---
+spring:
+  profiles: debug
+name: debugName
